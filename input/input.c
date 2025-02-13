@@ -627,8 +627,8 @@ int main (){
   
   
   //TASK 2
-  FILE* fptr = fopen("gukesh-makan.csv","r");
-  FILE* fout = fopen("gukesh-makan-01.sql","w");
+  FILE* fptr = fopen("sample_input.csv","r");
+  FILE* fout = fopen("sample_input.sql","w");
   if (fptr==NULL){printf("can't open file");}
   int xx = 45;
   while (xx--){
