@@ -1,4 +1,4 @@
-# Chess Simulation in SQL
+# Chess Simulation in C/C++ and SQL
 
 ## Overview
 This project is a Chess game simulator written in C and C++ that reads moves from a CSV file, simulates the game, and stores all the moves in an SQL database. The program generates SQL `INSERT` commands to store the moves, making it useful for analysis and record-keeping.
